@@ -1,0 +1,43 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+*.class
+#package files
+*.war
+*.ear
+
+#kdiff3  ignore
+*.orig
+
+#maven ignore
+target/
+
+#eclipse ignore
+.setting/
+.project
+.classpath
+
+#idea ignore
+*.iml
+.idea/
+/idea/
+*.ipr
+*.iws
+
+
+#temp  files
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#system ignore
+.DS_Store
+Thumbs.db
