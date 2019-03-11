@@ -12,9 +12,9 @@
 
     <appender name="shop" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--<File>d:/shoplog/shop.log</File>-->
-        <File>/developer/apache-tomcat-7.0.73/logs/shop.log</File>
+        <File>D:/apache-tomcat-9.0.13/logs/shop.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>/developer/apache-tomcat-7.0.73/logs/shop.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <fileNamePattern>D:/apache-tomcat-9.0.13/logs/logs/shop.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <append>true</append>
             <maxHistory>10</maxHistory>
         </rollingPolicy>
@@ -26,7 +26,7 @@
 
     <appender name="error" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <!--<File>d:/shoplog/error.log</File>-->
-        <File>/developer/apache-tomcat-7.0.73/logs/error.log</File>
+        <File>D:/apache-tomcat-9.0.13/logs/error.log</File>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>/devsoft/apache-tomcat-7.0.73/logs/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>
             <!--<fileNamePattern>d:/shoplog/error.log.%d{yyyy-MM-dd}.gz</fileNamePattern>-->
